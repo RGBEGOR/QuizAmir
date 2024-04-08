@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Викторина Амир Тимур</title>
+    <link rel="stylesheet" href="./css/index.css " />
+  </head>
+  <body>
+    <div class="body">
+      <div
+        class="quiz-home-box custom-box show"
+        style="margin-bottom: 100%; margin-top: 30px;"
+      >
+        <h4>У Вас есть 15 секунд на ответ</h4>
+        <button type="button" class="start-quiz-btn btn">
+          Начать викторину
+        </button>
+      </div>
+      <div class="quiz-box custom-box" style="margin-bottom: 100%;">
+        <div class="stats">
+          <div class="quiz-time">
+            <div class="remaining-time"></div>
+            <span class="time-up-text">Time's Up</span>
+          </div>
+          <div class="score-board" style="color: red;">
+            <span class="score-text">Баллы:</span>
+            <span class="correct-answers"></span>
+          </div>
+        </div>
+        <div class="question-box">
+          <div class="current-question-num"></div>
+          <div class="question-text">
+            Your fingernails and hair keep growing after you die
+          </div>
+        </div>
+        <div class="option-box">
+          <!-- we will create these options by our own -->
+          <!-- <div class="option">True</div>
+        <div class="option">False</div> -->
+          <!-- <div class="option">True</div>
+        <div class="option">False</div> -->
+        </div>
+        <div class="answer-description"></div>
+        <div class="next-question">
+          <button type="button" class="next-question-btn btn">
+            Следущий вопрос
+          </button>
+          <button type="button" class="see-result-btn btn">
+           Посмотреть наши результаты
+          </button>
+        </div>
+      </div>
+      <div class="quiz-over-box custom-box" style="margin-bottom: 100%;">
+        <h1>Результаты</h1>
+        <h4>Все вопросы: <span class="total-questions">9</span></h4>
+        <h4>Попытки: <span class="total-attempt">8</span></h4>
+        <h4>Правильных : <span class="total-correct">3</span></h4>
+        <h4>Неправильных: <span class="total-wrong">5</span></h4>
+        <h4>В процентах: <span class="total-percentage">33.33%</span></h4>
+        <button type="button" class="start-again-quiz-btn btn">
+          Начать заново
+        </button>
+        <button type="button" class="go-home-btn btn">Вернуться на главную</button>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
